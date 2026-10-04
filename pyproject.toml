@@ -7,7 +7,9 @@ authors = [
     { name = "JS5Hu", email = "jiashuohustu@163.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "cowsay>=6.1",
+]
 
 [project.scripts]
 myproject = "myproject:main"
